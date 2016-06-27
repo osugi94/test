@@ -1,0 +1,23 @@
+<ons-page>
+    <div style="text-align: center">
+        <h1>ログイン</h1>
+        <p>
+            ユーザー名<br/>
+            <input type="text" name="userName" id="user_name"/>
+            <br/>
+            パスワード<br/>
+            <input type="text" name="password" id="password">
+            <br/>
+            <br/>
+            <ons-button id="login_button" onclick="userLogin(false)">
+            ログイン
+            </ons-button>
+            <br/>
+            <br/>
+            <ons-button id="signup_button" onclick="userLogin(true)">
+            または、新規登録
+            </ons-button><br/>
+            <span id="login_error_msg"></span>
+        </p>
+    </div>
+</ons-page>

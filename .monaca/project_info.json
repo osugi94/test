@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "mobi.monaca.plugins.Monaca",
+        "org.apache.cordova.splashscreen"
+    ],
+    "framework_version": "3.5",
+    "xcode_version": null,
+    "cordova_version": "3.5",
+    "plugin_settings": [],
+    "external_plugins": []
+}
